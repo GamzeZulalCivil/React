@@ -10,7 +10,7 @@ const Comment= ({name, timeAgo, star, comment, image}) => {
             <div className="content">
             <a className="author" href='/'>{name}</a>
             <div className="metadata">
-                <div className="date">{timeAgo} gün önce</div>
+                <div className="date">{timeAgo} gün önce...</div>
                 <div className="rating">
                 <i className="{star} icon"></i>
                 5 Yıldız
