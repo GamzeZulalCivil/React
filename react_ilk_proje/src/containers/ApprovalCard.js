@@ -1,8 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+
+
+function Detay(){
+   <div>
+       <span>
+           gfdgd
+       </span>
+   </div>
+    alert('Tebrikler');
+}
+
+
 
 const ApprovalCard = (props) => {
     return (
-    <div className="ui card">
+        
+    <div className="ui card" >
         <div className="content">
                  {props.children}       
         </div>
@@ -11,9 +26,13 @@ const ApprovalCard = (props) => {
             <i className="like icon"></i>
             Beğen
             </span>
-            <span className="right floated star">
+            <span className=" floated star">
             <i className="star icon"></i>
-            Favoriye Al
+            Favoriye Al 
+            </span>
+            <span className="right floated ">
+            
+            <Link to='/ ??? /0'>Detay</Link>
             </span>
         </div>
     </div>
